@@ -580,6 +580,7 @@ header .inline {
   transition: box-shadow 0.35s ease-out;
   color: #fff;
 }
+
 .card .card-item:hover {
   box-shadow: 0 0 20px var(--shadow);
 }

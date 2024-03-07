@@ -76,11 +76,18 @@ class Controller extends \Gcms\Controller
             if (!empty(self::$cfg->show_title_logo)) {
                 $logo .= '{WEBTITLE}';
             }
+
+            $logoog = '<img src="'.WEB_URL.DATA_FOLDER.'images/logo.png" alt="{WEBTITLE}">';
+            // if (!empty(self::$cfg->show_title_logo)) {
+                
+            // }
+
             self::$view->setMetas(array(
                 '<link rel="icon" type="image/x-icon" href="'.WEB_URL.DATA_FOLDER.'images/logo.png">'
             ));
         } else {
             $logo = '<span class="'.self::$cfg->default_icon.'">{WEBTITLE}</span>';
+            $logoog = '<span class="'.self::$cfg->default_icon.'">{WEBTITLE}</span>';
         }
         // LINE Add friend
         if ($login && !empty(self::$cfg->line_official_account) && !empty(self::$cfg->line_channel_access_token)) {
@@ -98,6 +105,7 @@ class Controller extends \Gcms\Controller
             '/{MENUS}/' => self::$menus->render($page->menu(), $login),
             // โลโก
             '/{LOGO}/' => $logo,
+            '/{LOGOLOGIN}/' => $logoog,
             '/{LOGO_CLASS}/' => self::logoClass(),
             // language menu
             '/{LANGUAGES}/' => $languages,

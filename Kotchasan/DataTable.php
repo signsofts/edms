@@ -360,7 +360,7 @@ class DataTable extends \Kotchasan\KBase
      *
      * @var array
      */
-    public $entriesList = array(10, 20, 30, 40, 50, 100);
+    public $entriesList = array(10, 20, 30);
     /**
      * Displays the query on the screen.
      *

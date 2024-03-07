@@ -130,11 +130,11 @@ class Model
                     'url' => 'index.php?module=report',
                     'submenus' => []
                 ),
-                'settings' => array(
-                    'text' => '{LNG_Settings}',
-                    'url' => 'index.php?module=settings',
-                    'submenus' => $settings
-                )
+                // 'settings' => array( //ตั้งค่า เมนู
+                //     'text' => '{LNG_Settings}',
+                //     'url' => 'index.php?module=settings',
+                //     'submenus' => $settings
+                // )
             );
         }
         // ไม่ได้ login

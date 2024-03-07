@@ -155,7 +155,7 @@ class Controller extends \Gcms\Controller
             $content = '<span class="card-item">';
             $end = '</span>';
         } else {
-            $content = '<a class="card-item" href="'.$url.'"'.(empty($target) ? '' : ' target="'.$target.'"').'>';
+            $content = '<a class="card-item readcom " href="'.$url.'"'.(empty($target) ? '' : ' target="'.$target.'"').'>';
             $end = '</a>';
         }
         $content .= '<span class="card-subitem '.$icon.' icon"></span>';

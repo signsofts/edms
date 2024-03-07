@@ -3157,6 +3157,9 @@ input.gddcolor.invalid {
 .ggrid > .block {
   flex: 1 0 0%;
 }
+.readcom {
+  background-color: rgb(255, 64, 64) !important;
+}
 .ggrid.equal-height > [class^="block"] > *,
 .ggrid.equal-height > [class*=" block"] > * {
   height: 100%;
@@ -3201,6 +3204,8 @@ input.gddcolor.invalid {
   max-width: 33.333%;
   flex: 0 0 33.333%;
 }
+
+
 .ggrid > .block5 {
   max-width: 41.667%;
   flex: 0 0 41.667%;

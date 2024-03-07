@@ -113,7 +113,7 @@ return array(
   'Document management system' => 'ระบบจัดเก็บเอกสาร',
   'Document No.' => 'เลขที่เอกสาร',
   'Document number' => 'เลขที่เอกสาร',
-  'Document title' => 'หัวข้อเอกสาร',
+  'Document title' => 'ชื่อเอกสาร',
   'Download' => 'ดาวน์โหลด',
   'Download history' => 'ประวัติการดาวน์โหลด',
   'DOWNLOAD_ACTIONS' => array(
@@ -421,7 +421,7 @@ return array(
   'You can enter your LINE user ID below on your personal information page. to link your account to this official account' => 'คุณสามารถกรอก LINE user ID ด้านล่างในหน้าข้อมูลส่วนตัวของคุณ เพื่อผูกบัญชีของคุณเข้ากับบัญชีทางการนี้ได้',
   'You can login at' => 'คุณสามารถเข้าระบบได้ที่',
   'You haven&#039;t verified your email address. Please check your email. and click the link in the email' => 'คุณยังไม่ได้ยืนยันที่อยู่อีเมล กรุณาตรวจสอบอีเมลของคุณ และคลิกลิงค์ในอีเมล',
-  'You want to' => 'คุณต้องการ',
+  'You want to' => 'ไฟล์เอกสาร',
   'Your account has been approved.' => 'บัญชีของท่านได้รับการอนุมัติเรียบร้อยแล้ว',
   'Your account has not been approved, please wait or contact the administrator.' => 'บัญชีของท่านยังไม่ได้รับการอนุมัติ กรุณารอ หรือติดต่อสอบถามไปยังผู้ดูแล',
   'Your message was sent successfully' => 'ส่งข้อความไปยังผู้ที่เกี่ยวข้องเรียบร้อยแล้ว',
