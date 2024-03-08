@@ -1,0 +1,75 @@
+<?php
+/* config.php */
+return array (
+  'version' => '6.0.4',
+  'web_title' => 'SFP',
+  'web_description' => 'ระบบจัดเก็บเอกสารบริษัทอาหารสยาม (2513) จำกัด',
+  'timezone' => 'Asia/Bangkok',
+  'member_status' => 
+  array (
+    0 => 'สมาชิก',
+    1 => 'ผู้ดูแลระบบ',
+    2 => 'เจ้าหน้าที่',
+  ),
+  'color_status' => 
+  array (
+    0 => '#259B24',
+    1 => '#FF0000',
+    2 => '#0E0EDA',
+  ),
+  'default_icon' => 'icon-edocument',
+  'dms_format_no' => '%04d',
+  'dms_prefix' => 'DOC%Y%M-',
+  'dms_file_typies' => 
+  array (
+    0 => 'doc',
+    1 => 'ppt',
+    2 => 'pptx',
+    3 => 'docx',
+    4 => 'rar',
+    5 => 'zip',
+    6 => 'jpg',
+    7 => 'pdf',
+  ),
+  'dms_upload_size' => 2097152,
+  'dms_download_action' => 0,
+  'dms_user_permission' => 
+  array (
+    0 => 'can_manage_dms',
+    1 => 'can_download_dms',
+    2 => 'can_upload_dms',
+  ),
+  'dms_upload_options' => 0,
+  'password_key' => '65ea29cf24814',
+  'reversion' => 1709847714,
+  'user_forgot' => 0,
+  'user_register' => 1,
+  'welcome_email' => 0,
+  'demo_mode' => 0,
+  'activate_user' => 0,
+  'new_members_active' => 1,
+  'login_fields' => 
+  array (
+    0 => 'username',
+  ),
+  'default_department' => '',
+  'facebook_appId' => '',
+  'google_client_id' => '',
+  'skin' => 'skin/default',
+  'show_title_logo' => 1,
+  'new_line_title' => 1,
+  'header_bg_color' => '#0D47A1',
+  'warpper_bg_color' => '#FFFFFF',
+  'content_bg' => '#FFFFFF',
+  'header_color' => '#FFFFFF',
+  'footer_color' => '#999999',
+  'logo_color' => '#FFFFFF',
+  'theme_width' => 'fullwidth',
+  'login_message' => '',
+  'login_message_style' => 'warning',
+  'login_header_color' => '#2A2A2A',
+  'login_footer_color' => '#4A565C',
+  'login_color' => '#4A565C',
+  'login_bg_color' => '#FFFFFF',
+  'dms_require_attach_file' => 0,
+);
